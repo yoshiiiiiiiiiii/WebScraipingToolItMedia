@@ -42,6 +42,7 @@ def move_sheet(work_book, sheet_name_from):
         # 作成したシートが既存のシートよりも日付が後の場合
         if date_to < date_from:
 
+
             for sheet_index, worksheet_from in enumerate(work_book.worksheets):
 
                 if sheet_name_from in worksheet_from.title:
